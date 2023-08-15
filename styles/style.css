@@ -63,10 +63,16 @@ header {
 }
 
 .intraduction {
-  background-image: url("/img/homepage-bg.png");
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  position: relative;
+  background-size: 100%;
+}
+.intraduction img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
 }
 
 .flex-container {
